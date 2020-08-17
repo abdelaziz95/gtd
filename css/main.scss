@@ -1,0 +1,178 @@
+$grayColor : #4f4d53;
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/******* Start Navbar *****/
+.navbar{
+    background-color: $grayColor;
+    height: 48px;
+    padding: 0;
+    .logo-brand{
+        img{
+            max-width: 100%;
+            max-height: 100%;
+            
+        }
+    }
+    .form-control{
+        background-image: url(../images/ic_search.png) ;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-size: 15px;
+        position: left;
+        padding: 20px;
+        padding-top: 16px;
+        background-color: $grayColor;
+        border: 0px solid $grayColor;
+        height: 30px;
+    } 
+    ::placeholder{
+        color:rgb(175, 175, 175);
+    }
+}
+/******** End Navbar ********/
+
+/******* Start Header *******/
+.header{
+    .hello{
+        color: $grayColor;
+        font-weight: 900;
+        @media (max-width: 400px){
+            font-size: 35px;
+        }
+        @media (max-width: 767px) {
+            font-size: 50px;
+            margin-top: -165px;
+            margin-bottom: 52px;
+        }
+        @media (min-width: 768px) {
+            font-size: 70px;
+            margin-top: -195px;
+            margin-bottom: 55px;
+        }
+        @media (min-width: 992px) {
+            font-size: 85px;
+            margin-top: -285px;
+            margin-bottom: 105px;
+        }
+        @media (min-width: 1200px) {
+            font-size: 100px;
+            margin-top: -325px;
+            margin-bottom: 110px;
+        }
+    }
+    
+    .circls{
+        .img-section{
+            max-width: 100%;
+            .imgs{
+                width: 50%;
+                height: 100%;
+                border-radius: 50%;
+               
+            }
+           
+        }
+        @media (max-width: 400px) {
+            margin-top: 4px;
+        }
+        @media (max-width: 767px ) {
+            margin-top:10px;
+        }
+        @media (min-width: 768px) {
+            margin-top:-60px;
+        }
+        @media (min-width: 992px) {
+            margin-top:-85px;
+        }
+        @media (min-width: 1200px) {
+            margin-top:-100px;
+        }
+        
+    }
+}
+/******* End Header *******/
+
+/******** Start Starting Section ****/
+.starting{
+  
+    .heading{
+        .start-heading{
+            padding-top: 50px;
+            color:#E8BE02;
+            font-size: 64px;
+            font-weight: 900;
+            @media (max-width: 767px) {
+                font-size: 40px;
+                font-weight: bold;
+            }
+        }
+    }
+    .loreum{
+        color: #a1a1a1;
+        margin: 50px auto;
+        width:50%;
+        line-height: 1.4;
+        font-size: 20px;
+        font-weight: 400;
+        @media (max-width: 767px) {
+            font-size: 15px;
+        }
+    }
+}
+/******* End Starting Section ******/
+
+/******* Start Contact Section ****/
+.contact{
+    margin-bottom: 100px;
+    .contact-imgs{
+        width: 45%;
+        height:80%;
+        border-radius: 50%;
+    }
+    .heading{
+        margin-top: 20px;
+        color: #E8BE02;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .link{
+        color:#a1a1a1;
+        text-decoration: none;
+    }
+    .lisa-left{
+        margin-right: -150px;
+    }
+}
+/******* End Contact Section *****/
+
+/******* Start Footer **********/
+.footer{
+    background-color: #4f4d53;
+    height: 320px;
+    .yellow-line{
+        top:0;
+        height: 12px;
+        background-color:#E8BE02;
+    }
+    .heading{
+        color: #E8BE02;
+        font-size: 14px;
+        margin-top: 20px;
+        font-weight: 400;
+    }
+    ul{
+        li{
+            a{
+                text-decoration: none;
+                color:#fff;
+                font-size: 15px;
+            }
+        }
+    }
+}
+/******* End Footer ***********/

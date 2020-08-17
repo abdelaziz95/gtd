@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+/******* Start Navbar *****/
+.navbar {
+  background-color: #4f4d53;
+  height: 48px;
+  padding: 0; }
+  .navbar .logo-brand img {
+    max-width: 100%;
+    max-height: 100%; }
+  .navbar .form-control {
+    background-image: url(../images/ic_search.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 15px;
+    position: left;
+    padding: 20px;
+    padding-top: 16px;
+    background-color: #4f4d53;
+    border: 0px solid #4f4d53;
+    height: 30px; 
+    color:#fff;
+}
+  .navbar ::placeholder {
+    color: #afafaf; }
+
+/******** End Navbar ********/
+/******* Start Header *******/
+.header .hello {
+  color: #4f4d53;
+  font-weight: 900; }
+  @media (max-width: 400px) {
+    .header .hello {
+      font-size: 35px; } }
+  @media (max-width: 767px) {
+    .header .hello {
+      font-size: 50px;
+      margin-top: -165px;
+      margin-bottom: 52px; } }
+  @media (min-width: 768px) {
+    .header .hello {
+      font-size: 70px;
+      margin-top: -195px;
+      margin-bottom: 55px; } }
+  @media (min-width: 992px) {
+    .header .hello {
+      font-size: 85px;
+      margin-top: -285px;
+      margin-bottom: 105px; } }
+  @media (min-width: 1200px) {
+    .header .hello {
+      font-size: 100px;
+      margin-top: -325px;
+      margin-bottom: 110px; } }
+.header .circls .img-section {
+  max-width: 100%; }
+  .header .circls .img-section .imgs {
+    width: 50%;
+    height: 100%;
+    border-radius: 50%; }
+@media (max-width: 400px) {
+  .header .circls {
+    margin-top: 4px; } }
+@media (max-width: 767px) {
+  .header .circls {
+    margin-top: 10px; } }
+@media (min-width: 768px) {
+  .header .circls {
+    margin-top: -60px; } }
+@media (min-width: 992px) {
+  .header .circls {
+    margin-top: -85px; } }
+@media (min-width: 1200px) {
+  .header .circls {
+    margin-top: -100px; } }
+
+/******* End Header *******/
+/******** Start Starting Section ****/
+.starting .heading .start-heading {
+  padding-top: 50px;
+  color: #E8BE02;
+  font-size: 64px;
+  font-weight: 900; }
+  @media (max-width: 767px) {
+    .starting .heading .start-heading {
+      font-size: 40px;
+      font-weight: bold; } }
+.starting .loreum {
+  color: #a1a1a1;
+  margin: 50px auto;
+  width: 50%;
+  line-height: 1.4;
+  font-size: 20px;
+  font-weight: 400; }
+  @media (max-width: 767px) {
+    .starting .loreum {
+      font-size: 15px; } }
+
+/******* End Starting Section ******/
+/******* Start Contact Section ****/
+.contact {
+  margin-bottom: 100px; }
+  .contact .contact-imgs {
+    width: 45%;
+    height: 80%;
+    border-radius: 50%; }
+  .contact .heading {
+    margin-top: 20px;
+    color: #E8BE02;
+    font-size: 20px;
+    font-weight: 900; }
+  .contact .link {
+    color: #a1a1a1;
+    text-decoration: none; }
+  .contact .lisa-left {
+    margin-right: -150px; }
+
+/******* End Contact Section *****/
+/******* Start Footer **********/
+.footer {
+  background-color: #4f4d53;
+  height: 320px; }
+  .footer .yellow-line {
+    top: 0;
+    height: 12px;
+    background-color: #E8BE02; }
+  .footer .heading {
+    color: #E8BE02;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 400; }
+  .footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px; }
+
+/******* End Footer ***********/
+
+/*# sourceMappingURL=main.css.map */
